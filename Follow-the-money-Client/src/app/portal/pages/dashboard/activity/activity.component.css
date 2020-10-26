@@ -1,0 +1,39 @@
+h1 {
+  font-family: "Poppins Regular", sans-serif;
+  font-size: 24px;
+  color: #404040;
+  margin-bottom: 25px;
+}
+
+.activity {
+  border-radius: 10px 10px 0 0;
+}
+
+app-single-activity:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
+
+button {
+  width: 100%;
+  font-family: "Poppins Medium", sans-serif;
+  font-size: 16px;
+  background-color: #0BD1B8;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 550px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    width: auto;
+    margin-top: 20px;
+    align-self: flex-end;
+  }
+}

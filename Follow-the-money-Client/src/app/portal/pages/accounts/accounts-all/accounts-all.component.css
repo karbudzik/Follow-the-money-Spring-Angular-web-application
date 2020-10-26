@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("src/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Semibold";
+  src: url("src/assets/fonts/Poppins-SemiBold.ttf");
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.account-boxes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-family: "Poppins Regular", sans-serif;
+}
+
+@media only screen and (max-width: 850px) {
+  .account-boxes-container {
+    width: 100%;
+  }
+
+  app-account-box {
+    width: 100%;
+  }
+}
